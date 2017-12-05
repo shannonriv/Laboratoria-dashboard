@@ -45,5 +45,13 @@ function enrollment(data, campus = campusDefault, cohort = cohortDefault) {
   return objEnrollment;
 }
 
+/*
+devuelve:
+{
+  studentsCurrentEnrolled: x,
+  studentsDropout: x
+}
+*/
+
 var temp = enrollment(data);
 // fin de funcionalidad de Enrollment

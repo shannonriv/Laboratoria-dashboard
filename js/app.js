@@ -41,4 +41,4 @@ function getStudents(data, campus = campusDefault, cohort = cohortDefault) {
   return data[campus][cohort].students;
 }
 
-/* var temp = getStudents(data); */
+/* var temp = getStudents(data);--->para probar el getStudents o debugger*/
